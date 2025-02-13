@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNP Immersion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar {
+            background: #00509E;
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hidden {
+            display: none;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background: #003366;
+            color: white;
+            margin-top: 20px;
+        }
+        #imageContainer img {
+            width: 300px;
+            margin: 10px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">PNP Immersion</div>
+    <div class="navbar">
+        <a onclick="showPage('home')">Home</a>
+        <a onclick="showPage('narrative')">Narrative</a>
+        <a onclick="showPage('journal')">Journal</a>
+        <a onclick="showPage('experience')">Experience</a>
+    </div>
+
+    <div id="home" class="container">
+        <h1>Welcome to my Website</h1>
+        <p>Glayza Abena Garcia</p>
+        <p>12- ICT Spain</p>
+        <button class="btn" onclick="showPage('documentation')">Documentation</button>
+    </div>
+
+    <div id="narrative" class="container hidden">
+        <h1>Narrative Report</h1>
+                <h2>Brief Summary Week 1</h2>
+        <p>The immersion journey was a week of learning, discipline, and service, offering valuable insights into administrative and police work. It began with an orientation by PEMS Mariel Rodil, followed by cleaning assignments in the administrative office under Ma’am PAT Caira Mejico’s supervision.  
+           Throughout the week, participants attended police formations, spiritual meetings, and lectures while assisting in various tasks such as organizing personnel lists, handling pensioner documents, and maintaining office cleanliness. They also engaged with the community through flyer distribution and participated in activities at the Police Community Affairs and Development (PCAD) office.  
+           By the final day, they had gained a deeper appreciation for police administrative processes, documentation, and public service, culminating in a writing task that reinforced their learning.</p>
+        <h3>Brief Summary Week 2</h3>
+       <p>The immersion journey continued with administrative tasks, community service, and hands-on learning. Participants assisted personnel in locating names in records and alphabetizing the **Sworn Statement of Assets, Liabilities, and Net Worth (SALN), gaining practical experience in documentation. Maintaining cleanliness remained a priority, including tidying both the admin office and areas outside detention cells.  
+          Spiritual development was emphasized through **weekly interactive meetings led by Bishop C. Rolando Ponce. Additional tasks included preparing the admin office for repainting, dismantling decorations, and deep-cleaning office spaces. Writing assignments such as the Composition and Corrective Action Report further enhanced analytical and communication skills.  
+          The week also involved police formations, kitchen duties, and exterior cleaning. On the final day, participants engaged in community outreach by packing and distributing pancit, reinforcing the values of teamwork and public service. The immersion concluded with a final round of cleaning, ensuring the office was well-organized and spotless.</p>
+    </div>
+
+    <div id="journal" class="container hidden">
+        <h1>My Journal</h1>
+        <p><b>January 13, 2025</b><br>
+            First day at PNP immersion. Started with an orientation by PEMS Mariel Rodi and task assignments from PAT Caira Mejico. Spent most of the day cleaning the admin office. Light workload, no stress, just getting familiar with the environment.  
+        <br>
+            <b>January 14, 2025</b><br>
+            Attended Police Formation and a spiritual meeting. Met PLTCOL Roden Suarez Fluche, which emphasized the importance of professionalism. Assisted with pensioner documents and arranged personnel names by rank. Felt more productive and involved.  
+        <br>
+            <b>January 15, 2025</b><br>
+            Cleaned and organized the admin office. Assisted pensioners, cut and stuck papers in the finance section. Repetitive but fulfilling tasks. Felt more settled into the routine.  
+        <br>
+            <b>January 16, 2025</b><br>
+            Cleaned windows, then rotated to the PCAD office. Visited Canubing School to distribute flyers, which felt impactful. Ran errands and washed dishes, appreciating the variety of tasks.  
+       <br>
+            <b>January 17, 2025</b><br>
+            Another spiritual meeting. Worked on the Commission and Corrective Action Report. Xeroxed certifications for barangays. Tasks felt more familiar, highlighting growth in confidence and efficiency.  
+       <br>
+            <b>January 20, 2025</b><br>
+            Helped personnel find their names and organized SALN documents. Cleaned near the detention cells, which felt significant. Realized how small tasks contribute to the bigger picture.  
+       <br>
+            <b>January 21, 2025</b><br>
+            Spiritual meeting followed by grocery errands. Cleaned admin office in preparation for painting. Felt symbolic—preparing for something new. Enjoyed the mix of routine and change.  
+       <br>
+            <b>January 22, 2025</b><br>
+            Took down Christmas decorations, marking the end of the holiday season. Cleaned various areas and worked on another report. Reflected on time passing and the importance of organization in police work.  
+       <br>
+            <b>January 23, 2025</b><br>
+            A tiring day focused on cleaning—sweeping, washing dishes, and tidying up the office. Tasks felt repetitive but meaningful, reinforcing the value of small contributions.  
+       <br>
+            <b>January 24, 2025</b><br>
+            Packed pansit for distribution, cleaned the background area, and removed a malunggay tree. Exhausting but rewarding. Reflected on how even the smallest tasks make a difference.  
+        </p>
+    </div>
+          
+    <div id="experience" class="container hidden">
+        <h1>Learned</h1>
+        <p><b>January 13, 2025: First Impressions and Adjustments</b> <br>
+            I learned that the first day is all about getting familiar with the environment. Even though the tasks were simple, like cleaning the admin office, they helped me ease into the workplace. It showed me that every job, no matter how small, plays a role in keeping things organized.</p>
+        <p><b>January 14, 2025: Professionalism and Productivity</b><br>
+            Meeting PLTCOL Roden Suarez Fluche made me realize the importance of making a good impression. I also learned that even administrative tasks, like arranging documents and assisting pensioners, contribute to the efficiency of the office. Today, I felt more involved and productive.</p>
+        <p><b>January 15, 2025: The Value of Routine</b><br>
+            I discovered that routine tasks, like cleaning and organizing, can bring a sense of fulfillment. Helping pensioners made me realize that small actions can have a direct impact on people. I also learned that being productive isn’t always about doing something new it’s about doing tasks with care and purpose.</p>  
+        <p><b>January 16, 2025: Beyond the Office</b><br>
+            Going out to distribute flyers at Canubing School showed me that police work isn’t just about paperwork it’s also about community involvement. Even errands like buying bread or washing dishes taught me that every role, no matter how small, helps the workplace run smoothly.</p>
+        <p><b>January 17, 2025: The Importance of Accuracy</b><br>
+            Working on the Commission and Corrective Action Report made me understand how important accuracy is in documentation. I also realized that even repetitive tasks, like photocopying, require attention to detail. Today reinforced the importance of patience and precision.</p>
+        <p><b>January 20, 2025: Small Tasks, Big Impact</b><br>
+            I saw how something as simple as organizing documents and helping personnel find their names contributes to efficiency. Cleaning near the detention cells also gave me a different perspective on police work—it reminded me that every part of this job, even maintaining cleanliness, has meaning.</p> 
+        <p><b>January 21, 2025: Preparation and Change</b><br>
+            Cleaning the office for painting made me think about how preparing for change is just as important as doing the actual work. Running errands showed me that not all responsibilities are serious—sometimes, small tasks like grocery shopping are necessary too.</p>  
+        <p><b>January 22, 2025: Letting Go and Moving Forward</b><br>
+            Taking down the Christmas decorations made me reflect on how time moves quickly and how transitions are necessary. Writing another report also helped me understand the role of documentation in maintaining order within the workplace.</p>  
+        <p><b>January 23, 2025: Commitment Even in Simplicity</b><br>
+            Today, I learned that not every day has to be exciting to be meaningful. Even when tasks like sweeping and washing dishes seem repetitive, they are necessary. I also realized that staying committed, even on tiring days, is important.</p>  
+        <p><b>January 24, 2025: Every Task Matters</b><br>
+            Packing food for distribution reminded me that even small acts of service can make a difference. Cleaning the outdoor area and removing the malunggay tree showed me the importance of teamwork and physical effort. I learned that no matter how tiring a day is, there’s always a sense of fulfillment when you know you’ve contributed something valuable.</p>  
+        
+    </div>
+
+    <div id="documentation" class="container hidden">
+     <h1>Documentation</h1>
+     <button onclick="startSlideshow()">Show Pictures</button>
+     <div id="imageContainer"></div>
+     <button id="nextBtn" class="hidden" onclick="nextImage()">Next</button>
+     <button id="homeBtn" class="hidden" onclick="showPage('home')">Return Home</button>
+ </div>
+
+    <div class="footer">
+        &copy; 2025 Philippine National Police | All Rights Reserved
+    </div>
+
+    <script>
+        function showPage(pageId) {
+            const pages = ["home", "narrative", "journal", "experience", "documentation"];
+            pages.forEach(page => {
+                document.getElementById(page).classList.add("hidden");
+            });
+            document.getElementById(pageId).classList.remove("hidden");
+        }
+            const images = [
+                "1.jpg",
+                "2.jpg",
+                "3.jpg",
+                "4.jpg",
+                "5.jpg",
+                "6.jpg",
+                "7.jpg",
+                "8.jpg",
+                "9.jpg",
+                "10.jpg",
+                "11.jpg"
+                ]; let currentIndex = 0;
+
+function showPage(pageId) {
+    document.querySelectorAll('.container').forEach(page => page.classList.add('hidden'));
+    document.getElementById(pageId).classList.remove('hidden');
+}
+
+function startSlideshow() {
+    currentIndex = 0;
+    document.getElementById("imageContainer").innerHTML = `<img src="${images[currentIndex]}" />`;
+    document.getElementById("nextBtn").classList.remove("hidden");
+    document.getElementById("homeBtn").classList.add("hidden");
+}
+
+function nextImage() {
+    currentIndex++;
+    if (currentIndex < images.length) {
+        document.getElementById("imageContainer").innerHTML = `<img src="${images[currentIndex]}" />`;
+    } else {
+        document.getElementById("nextBtn").classList.add("hidden");
+        document.getElementById("homeBtn").classList.remove("hidden");
+    }
+}
+</script>
+
+</body>
+</html>
